@@ -1,0 +1,26 @@
+.suphead {
+  height: 79px;
+  background: #1c1c1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 31px;
+}
+.suphead-info {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+}
+.sup-link {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.sup-link svg {
+  color: #ff4d00;
+}
+.orange {
+  font-weight: 700;
+  color: #ff4d00;
+}
