@@ -10,6 +10,11 @@
   display: flex;
   gap: 21px;
   align-items: center;
+  color: #FFFFFF;
+}
+.logo-brand{
+  width: 50px;
+  height: 50px;
 }
 .sup-link {
   font-weight: 400;
@@ -17,10 +22,237 @@
   line-height: 18px;
   color: #ffffff;
 }
-.sup-link svg {
-  color: #ff4d00;
-}
+
 .orange {
   font-weight: 700;
   color: #ff4d00;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+}
+.brand{
+  display: flex;
+  align-items: center;
+}
+.brand-name{
+  font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+nav ul li{
+  display: inline-block;
+  margin: 0 40px;
+}
+.nav-link{
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6C6C6C;
+}
+.nav-socials{
+  display: flex;
+  gap: 24px;
+
+}
+.social-link{
+  font-size: 20px;
+  color: black;
+}
+.head{
+  background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.627) 0%, rgba(9, 8, 8, 0.75) 100%), url(./assets/rasm.png);
+  height:70vh;
+  background-size: cover;
+  
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+
+}
+.head-content{
+  height: 140px;
+  width: 100%;
+  background: rgba(28, 28, 28, 0.76);
+  padding-left: 350px;
+  padding-top: 30px;
+}
+.title{
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.pref{
+  gap: 30px;
+  padding-top: 30px;
+  border: 2px solid #ff4d00;
+  border-top: 0;
+  border-bottom: 0;
+  padding: 70px;
+
+}
+.pref-card{
+  padding: 10px;
+  border-left: 1px solid transparent;
+}
+.pref-card:nth-child(2){
+
+  /* border-right: 1px solid #ff4d00; */
+}
+.pref-card:hover{
+  border-left: 1px solid #ff4d00;
+  transition: 1s ;
+  -webkit-transition: 1s ;
+  -moz-transition: 1s ;
+  -ms-transition: 1s ;
+  -o-transition: 1s ;
+}
+.pref-icon{
+  font-size: 32px;
+}
+/* .pref-card:hover .pref-icon{
+  color: white;
+}
+.pref-card:hover .pref-title{
+  color: white;
+}
+.pref-card:hover .pref-text{
+  color: white;
+} */
+.pref-text::first-letter{
+  color: #ff4d00;
+  font-weight: 600;
+  font-size: 16px;
+}
+.pref-text{
+  padding: 10px 0;
+}
+
+.about-img{
+  width: 600px;
+}
+.about{
+  gap: 20px;
+  padding: 50px 0;
+}
+.text{
+  color: #6C6C6C;
+  font-weight: 400;
+  font-size: 20px;
+}
+.about-text{
+  margin: 30px 0;
+}
+.about-title{
+  font-size: 28px;
+  font-weight: 700px;
+}
+.btn{
+  background-color: #ff4d00;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600px;
+  font-size: 18px;
+  border: 1px solid ;
+}
+.btn:hover{
+  background-color: white;
+  border: 1px solid #ff4d00;
+  color: #ff4d00;
+}
+.subcribe{
+  height: 200px;
+  background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.627) 0%, rgba(9, 8, 8, 0.75) 100%), url(./assets/subcribe.jpeg);
+  background-size: cover;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+}
+.subcribe-title{
+  color: white;
+  font-size: 32px;
+  margin: 20px 0;
+}
+.sub-form{
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  height: 60px;
+  width: 800px;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+.sub-form input{
+  width: 90%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+.cart{
+  width: 465px;
+  height: 272px;
+  left: 183px;
+  top: 1224px;
+
+  background: #F7F7F7;
+  box-shadow: 4px 4px 4px #FF4D00;
+}
+.cart-img{
+  width: 232.85px;
+  height: 150px;
+}
+.cart-title{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+.product-row{
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.cart{
+  padding: 20px;
+  box-sizing: border-box;
+}
+.product{
+  padding: 70px 0;
+}
+
+
+.footer{
+  padding: 36px 0; 
+}
+.footer--logo{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.footer--title{
+  margin: 32px 0;
+}
+.footer--img{
+  width: 50px;
+  height: 50px;
+}
+.footer-col .text{
+  max-width: 500px;
+  margin: 32px 0;
 }

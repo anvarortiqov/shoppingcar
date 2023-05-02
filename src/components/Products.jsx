@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Loading from './Loading'
 import Cart from './Cart'
 
-function Cars() {
+function Products() {
   const [data,setData]=useState()
   const [load,setLoad]=useState(true)
  
@@ -25,7 +25,7 @@ function Cars() {
         </p>
         <div className="product-row row">
         {
-            data && data.map((car,index) => (
+            data && data.slice(0, 6).map((car,index) => (
                 <Cart 
                     key={index}
                      make={car.make}
@@ -42,4 +42,4 @@ function Cars() {
   )
 }
 
-export default Cars
+export default Products

@@ -1,4 +1,5 @@
 import React from "react";
+import logo from '../assets/logo.png'
 import { BsFillTelephoneOutboundFill } from "react-icons/bs";
 import { BiMailSend } from "react-icons/bi";
 import { AiFillYoutube, AiOutlineInstagram, AiFillFacebook } from "react-icons/ai";
@@ -16,7 +17,7 @@ function Header() {
           </a>
         </div>
         <div className="logo">
-          <img src="" alt="sup-logo" className="logo-brand" />
+          <img src={logo} alt="sup-logo" className="logo-brand" />
         </div>
         <div className="suphead-info">
           <BiMailSend />
@@ -30,7 +31,7 @@ function Header() {
       </div>
       <nav className="container row nav">
         <div className="brand">
-          <img src="" alt="logo" />
+          <img src={logo} alt="logo" className="logo-brand" />
           <span className="brand-name">Mersades</span>
         </div>
         <ul>
