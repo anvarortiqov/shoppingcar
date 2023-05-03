@@ -19,8 +19,8 @@ function Products() {
  
   return (
     <div className='product container'>
-        <h3>Biz bilan zamonaviylikni his eting</h3>
-        <p className='orange'>
+        <h3 className='about-title'>Biz bilan zamonaviylikni his eting</h3>
+        <p className='orange about-text ab'>
             Lorem ipsum dolor sit.
         </p>
         <div className="product-row row">

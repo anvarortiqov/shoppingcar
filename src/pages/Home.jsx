@@ -84,16 +84,18 @@ function Home() {
             <button className='btn'>Ko`proq o`qish</button>
         </div>
         <div className="about-i">
-          <img src="https://tadviser.com/images/0/01/Mercedes-benz-c-class-2018-w205-amg-silver-new-c-class.jpg"  alt="about-img" className='about-img'  />
+          <img src="https://funart.pro/uploads/posts/2021-04/1618357844_18-funart_pro-p-mashina-mersedes-bents-mashini-krasivo-fot-19.jpg"  alt="about-img" className='about-img'  />
         </div>
      </div>
      <Products/>
      <div className="subcribe">
-        <h3 className='subcribe-title'>Yangiliklarda birinchilardan bo`lib habardor bo`ling</h3>
-        <form action="#" className='sub-form'>
-           <input type="text" placeholder='Emailni kiriting' />
-           <button className='btn'>Jo`natish</button>
-        </form>
+        <div className="subscribing">
+          <h3 className='subcribe-title'>Yangiliklarda birinchilardan bo`lib habardor bo`ling</h3>
+          <form action="#" className='sub-form'>
+            <input type="text" placeholder='Emailni kiriting' />
+            <button className='btn--form'>Jo`natish</button>
+          </form>
+        </div>
      </div>
   
     </>

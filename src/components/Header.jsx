@@ -1,8 +1,12 @@
 import React from "react";
-import logo from '../assets/logo.png'
+import logo from "../assets/logo.png";
 import { BsFillTelephoneOutboundFill } from "react-icons/bs";
 import { BiMailSend } from "react-icons/bi";
-import { AiFillYoutube, AiOutlineInstagram, AiFillFacebook } from "react-icons/ai";
+import {
+  AiFillYoutube,
+  AiOutlineInstagram,
+  AiFillFacebook,
+} from "react-icons/ai";
 function Header() {
   return (
     <header className="header">
@@ -10,10 +14,8 @@ function Header() {
         <div className="suphead-info">
           <BsFillTelephoneOutboundFill />
           <a href="#" className="social-tel sup-link">
-           
-              <span className="orange">Biz bilan bog`laning</span> <br></br>
-              +998910000000
-          
+            <span className="orange">Biz bilan bog`laning</span> <br></br>
+            +998910000000
           </a>
         </div>
         <div className="logo">
@@ -23,7 +25,10 @@ function Header() {
           <BiMailSend />
           <a href="#" className="social-tel sup-link">
             <p className="sup-text">
-              <span className="orange">Biz bilan bog`laning</span> <br></br>
+              <span className="orange">
+                Biz bilan bog`laning biz sizni kutamiz
+              </span>{" "}
+              <br></br>
               +998910000000
             </p>
           </a>
@@ -36,30 +41,30 @@ function Header() {
         </div>
         <ul>
           <li>
-            <a href="" className="nav-link">
+            <a href="/" className="nav-link">
               Home
             </a>
           </li>
           <li>
-            <a href="" className="nav-link">
+            <a href="/cars" className="nav-link">
               Cars
             </a>
           </li>
           <li>
-            <a href="" className="nav-link">
+            <a href="/contact" className="nav-link">
               Contact
             </a>
           </li>
         </ul>
         <div className="nav-socials">
           <a href="#" className="social-link">
-            <AiFillFacebook/>
+            <AiFillFacebook />
           </a>
           <a href="#" className="social-link">
-           <AiOutlineInstagram/>
+            <AiOutlineInstagram />
           </a>
           <a href="#" className="social-link">
-            <AiFillYoutube/>
+            <AiFillYoutube />
           </a>
         </div>
       </nav>

@@ -2,8 +2,9 @@ import React from "react";
 import { AiFillCar, AiFillSetting } from "react-icons/ai";
 import { FcMoneyTransfer } from "react-icons/fc";
 import { GrValidate } from "react-icons/gr";
-function Cart(props) {
-  const { make, model, price, year, engine, img } = props;
+import { Link } from "react-router-dom";
+function Car(props) {
+  const { make, model, price, year, engine, img, id } = props;
   return (
     <div className="cart">
       <div className="cart--title">
@@ -25,6 +26,9 @@ function Cart(props) {
               <GrValidate /> {year}
             </li>
           </ul>
+          <Link to={`/cars/${id}`}>
+            <button className="btn btn-cart">Ko`proq o`qish</button>
+          </Link>
         </div>
         <div className="cart-left">
           <img src={img} alt="cart-image" className="cart-image" />
@@ -34,4 +38,4 @@ function Cart(props) {
   );
 }
 
-export default Cart;
+export default Car;
